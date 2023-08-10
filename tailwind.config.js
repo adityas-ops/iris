@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily:{
         'Fira':['Fira Sans', 'sans-serif'],
-        'Roboto':['Roboto', 'sans-serif']
+        'Roboto':['Roboto', 'sans-serif'],
+        'Grotesque':['Grotesque MT Std Bold Extended']
       }
     },
   },

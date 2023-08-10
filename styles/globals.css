@@ -9,3 +9,12 @@
     background-color: #E4E1FD;
     color: black;
 } */
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Grotesque MT Std Bold Extended';
+    src: url('/font/grotesquemtstd-boldextended.otf') format('opentype');
+}

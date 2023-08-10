@@ -36,7 +36,7 @@ function Header() {
             </Link>
           </div>
           {/* hemburgr */}
-          <button className="relative w-[10%]" onClick={handleClick}>
+          <button className="relative w-[10%] md:hidden" onClick={handleClick}>
             {isClicked ? (
               <>
                 <div className="w-[27px] h-[1px] absolute mb-[10px] bg-black transform rotate-45 origin-center transition-transform" />
