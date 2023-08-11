@@ -80,12 +80,18 @@ function Header() {
           <Link
             href="/about"
             className=" text-[2.125rem] px-[1rem] my-[4vw] mx-[5vw] font-Roboto"
+            onClick={()=>{
+              setIsClicked(false)
+            }}
           >
             ABOUT
           </Link>
           <Link
             href="/contact"
             className=" text-[2.125rem] px-[1rem] my-[4vw] mx-[5vw] font-Roboto"
+            onClick={()=>{
+              setIsClicked(false)
+            }}
           >
             CONTACT
           </Link>
