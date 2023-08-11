@@ -1,6 +1,14 @@
 import Header from "@/components/Header";
 import Link from "next/link";
 
+
+const ImageData = [
+  "/images/home/good-faces-xb9zL5dcx1o-unsplash.jpg",
+  "/images/home/pexels-yan-krukau-7314016.jpg",
+  "/images/home/lhon-karwan-8amZqoeEhEE-unsplash.jpg",
+  "/images/home/good-faces-PwcFaRXwvjE-unsplash.jpg"
+]
+
 export default function Home() {
   return (
     <>
@@ -10,7 +18,7 @@ export default function Home() {
           paddingBottom: "calc(10vmax / 10)",
         }}
       >
-        <div className=" w-full md:h-[540px] h-[540px] overflow-hidden  relative  max-w-[1940px] mx-auto">
+        <div className=" w-full md:h-[540px] h-[540px] overflow-hidden  relative  max-w-[1440px] mx-auto">
           <div className=" absolute z-10 md:right-[3.5%] right-[5%] md:top-[8%] top-[40%] sm:p-[75px] p-[37px] md:h-[380px] h-[340px] sm:w-[70%] md:w-[50%] w-[306px] bg-[#E8E1FD] flex  flex-col justify-evenly items-center">
             <div className=" w-full text-center mb-[16px] font-Roboto whitespace-pre-line ">
               <p className=" text-[14px] font-[300]">
@@ -50,7 +58,7 @@ export default function Home() {
           paddingBottom: "calc(10vmax / 10)",
         }}
       >
-        <div className="w-full h-full relative sm:py-[54px] mt-[20px] md:mt-0 py-[35px]">
+        <div className="w-full h-full max-w-[1440px] mx-auto relative sm:py-[54px] mt-[20px] md:mt-0 py-[35px]">
           <div className="w-full h-full  max-w-[1940px] mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className=" 3xl:h-[575px] md:h-[425px] md:w-[425px] w-[200px] h-[200px] sm:absolute top-[5%] right-[10%] 3xl:w-[575px] overflow-hidden  z-10">
               <img
@@ -90,7 +98,7 @@ export default function Home() {
           paddingBottom: "calc(10vmax / 10)",
         }}
       >
-        <div className=" w-full md:h-[540px] h-[540px] overflow-hidden  relative  max-w-[1940px] mx-auto">
+        <div className=" w-full md:h-[540px] h-[540px] overflow-hidden  relative  max-w-[1440px] mx-auto">
           <div className=" absolute z-10 md:left-[3.5%] left-[5%] md:top-[8%] top-[40%] sm:p-[75px]  md:h-[380px] h-[250px] sm:w-[70%] md:w-[50%] w-[306px] bg-[#E8E1FD] flex  flex-col sm:justify-evenly justify-center items-center">
             <div className=" w-full text-center sm:mb-[16px] font-Roboto whitespace-pre-line ">
               <p className=" text-[14px] font-[300]">
@@ -121,6 +129,27 @@ export default function Home() {
                 alt="as"
               />
             </div>
+          </div>
+        </div>
+      </div>
+      {/* fourth section */}
+      <div className=" max-w-[95%] mx-auto">
+        <p style={{
+          fontSize:"calc((1.5 - 1) * 1.2vw + 1rem)"
+        }} className=" whitespace-pre-wrap font-Grotesque text-[#3F401B] w-[70%] sm:w-[60%] md:w-[40%] ">Find the right beauty  products with Iris. </p>
+        <div className="py-[2%] w-full h-full">
+          <div className=" flex flex-wrap justify-between items-center">
+                {
+                    ImageData.map((item,index)=>{
+                      return(
+                        <>
+                        <div key={index} className="md:w-[24%] sm:w-[290px] w-[180px] py-[10px]  md:my-[20px] md:h-[33vh] lg:h-[42vh]  gap-3  relative overflow-hidden">
+                        <img src={item} alt="as" className="w-full h-full object-cover object-center"/>
+                        </div>
+                        </>
+                      )
+                    })
+                }
           </div>
         </div>
       </div>
