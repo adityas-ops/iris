@@ -11,7 +11,13 @@ module.exports = {
         'Fira':['Fira Sans', 'sans-serif'],
         'Roboto':['Roboto', 'sans-serif'],
         'Grotesque':['Grotesque MT Std Bold Extended']
-      }
+      },
+      screens:{
+        'lg':'1280px',
+        '2xl':'1430px',
+        '3xl':'1920px'
+      },
+      
     },
   },
   plugins: [],
