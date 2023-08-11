@@ -59,7 +59,7 @@ export default function Home() {
                 alt="as"
               />
             </div>
-            <div className="md:w-[70%] w-full bg-transparent px-[20px] mt-[50px] h-[270px] relative md:h-[460px] 3xl:h-[600px] z-0 overflow-hidden bg-white">
+            <div className="md:w-[70%] w-[90%] bg-transparent mx-[20px] mt-[50px] h-[270px] relative md:h-[460px] 3xl:h-[600px] z-0 overflow-hidden bg-white">
               <img
                 src="https://images.squarespace-cdn.com/content/v1/642200bb5393b3746af0a1f1/0da99fc5-f486-4228-bcac-ca9a9ad615fe/Yellow+Pink+and+Purple+Trendy+Gradient+Quote+Motivational+Poster+%281%29.jpg?format=2500w"
                 alt="w"
