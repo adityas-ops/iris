@@ -75,7 +75,7 @@ function Header() {
       </div>
       {
         isClicked && (<>
-            <div className=" fixed z-20   top-[12.5%] w-full left-[-0.1%]  h-[90vh]">
+            <div className=" fixed z-20 bg-white   top-[11%] w-full left-[-0.1%]  h-[90vh]">
         <div className="w-full h-[86%] text-[#3F401A]  flex flex-col justify-center">
           <Link
             href="/about"
