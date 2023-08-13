@@ -66,7 +66,7 @@ function Header() {
                   <Link href="/about">ABOUT</Link>
                 </div>
                 <div className=" mx-[1vw] ">
-                  <Link href="/about">CONTACT</Link>
+                  <Link href="/contact">CONTACT</Link>
                 </div>
               </nav>
             </div>
