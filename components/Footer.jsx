@@ -10,7 +10,7 @@ function Footer() {
           paddingTop: "calc(38vmax / 10)",
           paddingBottom: "calc(38vmax / 10)}",
         }}
-        className=" bg-[#FF0C54]  w-full h-full"
+        className=" bg-[#FF0C54]  w-full "
       >
         <div className=" w-full relative py-[30px] sm:py-0 ">
          
@@ -38,12 +38,12 @@ function Footer() {
                       <img src="/images/footer/svgexport-13.png" />
                     </Link>
                   </div>
-                 <div className=" mt-[30px] w-full h-full flex items-center justify-center ">
-                 <img src="https://images.squarespace-cdn.com/content/v1/642200bb5393b3746af0a1f1/f675f7a4-68ea-4ddd-9ba8-96a0ca58f5a7/Temporary+App+Icon.png?format=300w" className="ml-[10px] sm:h-[88px] h-[200px] mt-[12px]" alt="as" />
+                <div className=" mx-auto sm:mx-0">
+                 <img src="https://images.squarespace-cdn.com/content/v1/642200bb5393b3746af0a1f1/f675f7a4-68ea-4ddd-9ba8-96a0ca58f5a7/Temporary+App+Icon.png?format=300w" className="ml-[10px] sm:h-[88px] h-[200px] mt-[40px]  sm:mt-[12px]" alt="as" />
                  </div>
                 </div>
                 {/* second column  */}
-                <div className=" flex  sm:block mt-[40px]">
+                <div className=" flex sm:mt-0  mt-[40px]">
               <div className=" sm:ml-[40px] ml-4 h-full w-[190px]">
                 <Link href="/join" className=" font-Roboto font-[300] mb-[1rem] uppercase underline text-white">
                     <p  className=" mb-[1rem] mt-[7px]" style={{
