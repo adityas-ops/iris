@@ -137,7 +137,7 @@ export default function Home() {
         <p style={{
           fontSize:"calc((1.5 - 1) * 1.2vw + 1rem)"
         }} className=" whitespace-pre-wrap font-Grotesque text-[#3F401B] w-[70%] sm:w-[60%] md:w-[40%] ">Find the right beauty  products with Iris. </p>
-        <div className="py-[2%] w-full h-full">
+        <div className="py-[2%] w-[98%] mx-auto sm:w-full h-full">
           <div className=" flex flex-wrap justify-between items-center">
                 {
                     ImageData.map((item,index)=>{

@@ -57,7 +57,7 @@ function Footer() {
                 </div>
               </div>
               {/* third column */}
-              <div className=" w-[190px] ml-0 sm:ml-[40px]">
+              <div className=" w-[190px]  ml-0 sm:ml-[40px]">
               <Link href="/about" className=" font-Roboto font-[300] mb-[1rem] uppercase underline text-white">
                     <p  className=" mb-[1rem] mt-[7px]" style={{
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
