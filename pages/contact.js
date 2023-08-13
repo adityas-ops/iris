@@ -4,8 +4,8 @@ import React from "react";
 function contact() {
   return (
    <div className="w-full h-full bg-[#E8E1FD] " >
-     <div className="w-full py-[4vh] text-[#3F401A] bg-white">
-      <div className=" max-w-[44%] mx-auto ">
+     <div className="w-full py-[4vh]  text-[#3F401A] bg-white">
+      <div className=" w-full max-w-full pt-[50px] px-[20px] sm:max-w-[44%] mx-auto ">
         <h4
           className=" font-bold tracking-[1.5px] mb-[2rem] font-Fira"
           style={{
@@ -24,7 +24,7 @@ function contact() {
         </p>
       </div>
     </div>
-    <div className=" bg-[#E8E1FD] h-[31vh] w-full"></div> 
+    <div className=" bg-white sm:bg-[#E8E1FD] h-[61vh] sm:h-[31vh] w-full"></div> 
    </div>
   );
 }
