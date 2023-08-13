@@ -24,7 +24,7 @@ function contact() {
         </p>
       </div>
     </div>
-    <div className=" bg-white sm:bg-[#E8E1FD] h-[61vh] sm:h-[31vh] w-full"></div> 
+    <div className=" bg-white sm:bg-[#E8E1FD] h-[65vh] sm:h-[31vh] w-full"/>
    </div>
   );
 }
