@@ -7,7 +7,7 @@ function contact() {
      <div className="w-full py-[4vh]  text-[#3F401A] bg-white">
       <div className=" w-full max-w-full pt-[50px] px-[20px] sm:max-w-[44%] mx-auto ">
         <h4
-          className=" font-bold tracking-[1.5px] mb-[2rem] font-Fira"
+          className=" font-bold tracking-[1px] mb-[2rem] font-Grotesque"
           style={{
             fontSize: "calc((1 - 1) * 1.2vw + 1rem)",
           }}

@@ -11,12 +11,12 @@ function about() {
         }}
         className=" w-full h-full "
       >
-        <div className=" max-w-[45%] pb-[2.5rem]  text-[#3F401A] mx-auto">
+        <div className=" max-w-[90%] sm:max-w-[45%] pb-[2.5rem]  text-[#3F401A] mx-auto">
           <h3
             style={{
               fontSize: "calc((1.5 - 1) * 1.2vw + 1rem)",
             }}
-            className=" font-Fira text-center tracking-[1.5px]  mb-[2rem] font-bold "
+            className=" font-Grotesque mt-[30px] sm:mt-0  text-center tracking-[1.5px]  mb-[2rem] font-bold "
           >
             ✨Coming Soon✨
           </h3>
@@ -37,24 +37,24 @@ function about() {
       </div>
       <div className=" bg-[#E8E1FD] w-full py-[3.3vmax] h-full">
         <div className=" max-w-[1440px] mx-auto w-full h-full ">
-          <div className=" max-w-[81.25%] mx-auto w-full flex ">
-            <div className="flex-[62%] flex order-1 justify-center items-center">
+          <div className=" max-w-full  sm:max-w-[81.25%] mx-auto w-full flex  flex-col sm:flex-row">
+            <div className="sm:flex-[62%] flex order-1 justify-center items-center">
               <img
                 src="/images/about/iriswebsite-01+(1).png"
-                className=" w-[500px] h-[500px] object-cover"
+                className=" sm:w-[500px] w-[200px] h-[200px] sm:h-[500px] object-cover"
                 alt="as"
               />
             </div>
-            <div className="flex-[45%] text-[#3F401A] order-2 flex flex-col justify-center items-center">
+            <div className="sm:flex-[45%] flex-[100%] text-[#3F401A] order-2 flex flex-col justify-center items-center">
               <h3
                 style={{
                   fontSize: "calc((1.5 - 1) * 1.2vw + 1rem)",
                 }}
-                className=" font-bold font-Fira tracking-[1.5px]"
+                className=" font-bold font-Grotesque w-[70%] sm:w-full text-center mt-[30px] sm:mt-0 tracking-normal  sm:tracking-[1px]"
               >
                 Our goal for the Iris community
               </h3>
-              <p className=" text-center font-Roboto  font-[300]  leading-[1.5] text-[18px] mt-[2vh]">
+              <p className=" text-center font-Roboto px-[15px]  sm:px-0 font-[300]  leading-[1.5] text-[18px] mt-[2vh]">
                 Iris is a new app that is a destination for all beauty
                 enthusiasts who value authenticity and want to share their
                 beauty journey with others. Iris is a beauty space for those
@@ -66,7 +66,7 @@ function about() {
         </div>
       </div>
       <div className=" pt-[3.3vmax] pb-[5.3vmax] w-full h-full">
-        <div className="max-w-[61%] mx-auto w-full font-[300] leading-[2] font-Roboto text-[#3F401A] h-full">
+        <div className="sm:max-w-[61%] max-w-full px-[20px] sm:px-0 mx-auto w-full font-[300] leading-[2] font-Roboto text-[#3F401A] h-full">
 The Iris Vision - <strong className=" font-bold">Our Vision is to be the world&apos;s most trusted source in beauty. </strong>
 Our community guidelines are designed to help all beauty enthusiasts create meaningful connections, and express themselves openly to share real experiences. We believe that beauty-lovers deserve their own little corner of the internet. We want Iris to be a safe space for all beauty enthusiasts to feel supported, trusted and appreciated. We appreciate your genuine support and help building the Iris community. 
  <p className="mt-[20px]">See Iris&apos;s <Link className=" text-[#FF0C53] underline underline-offset-4" href="https://www.getiris.app/community-guidelines">Community Guidelines</Link></p>
