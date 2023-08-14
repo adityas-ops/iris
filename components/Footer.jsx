@@ -50,7 +50,7 @@ function Footer() {
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>Join The waitlist</p>
                 </Link>
-                <div  className=" mt-[rem] font-Roboto font-[300]  uppercase underline text-white">
+                <div  className=" mt-[rem] font-Roboto font-[300]  uppercase  text-white">
                     <p style={{
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>IRIS - APP COMING SOON</p>
@@ -63,7 +63,7 @@ function Footer() {
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>About</p>
                 </Link>
-                <Link href="/about" className=" font-Roboto font-[300] mb-[1rem] uppercase underline text-white">
+                <Link href="/terms-of-service" className=" font-Roboto font-[300] mb-[1rem] uppercase underline text-white">
                     <p  className=" sm:my-[2rem] my-[1rem]" style={{
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>terms of service</p>
