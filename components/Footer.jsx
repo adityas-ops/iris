@@ -68,7 +68,7 @@ function Footer() {
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>terms of service</p>
                 </Link>
-                <Link href="/partner" className=" font-Roboto font-[300]  uppercase underline text-white">
+                <Link href="/iris-partner-program" className=" font-Roboto font-[300]  uppercase underline text-white">
                     <p   className=" mb-[1rem] mt-0 sm:mt-[7px]" style={{
                         fontSize:"calc((0.9) - 1) * 1.2vw + 1rem)"
                     }}>
