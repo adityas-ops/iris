@@ -4,7 +4,7 @@ function iris() {
   return (
     <>
       <div className="pt-[6.6vmax]">
-        <div className=" max-w-[45.5%] text-[#3F401A] mx-auto">
+        <div className=" w-full px-[25px] sm:max-w-[45.5%] text-[#3F401A] mx-auto">
           <h3
             style={{
               fontSize: "calc((1.5 - 1) * 1.2vw + 1rem)",
@@ -37,10 +37,10 @@ function iris() {
         <img
           src="/images/partner/Screenshot+2023-05-23+at+3.16.35+PM.png"
           alt="as"
-          className=" max-w-[53.125%] mx-auto "
+          className=" w-full px-[25px] sm:max-w-[53.125%] mx-auto "
         />
       </div>
-      <div className="max-w-[45.5%] text-[#3F401A] mt-[6.3vmax] mb-[4.3vmax] mx-auto">
+      <div className=" w-full px-[25px]  sm:max-w-[45.5%] text-[#3F401A] mt-[6.3vmax] mb-[4.3vmax] mx-auto">
         <p className="font-Roboto text-[17.5px] font-[300] text-center my-[1rem] leading-[1.6] ">
           To be considered for Plus + Partner tiers the following requirements
           must take place:
@@ -50,7 +50,7 @@ function iris() {
           </strong>
         </p>
       </div>
-      <div className=" max-w-[60%] mx-auto pb-[6.6vmax] flex justify-between items-center">
+      <div className=" w-full sm:max-w-[60%] mx-auto pb-[6.6vmax] flex flex-col sm:flex-row justify-between items-center">
         <div className=" max-w-[290px] w-full text-[17.7px]">
           <p className=" text-center font-bold">Plus:</p>
           <ul className=" list-disc leading-[2] font-[300] opacity-90 text-center">
@@ -60,7 +60,7 @@ function iris() {
             <li>Active community member</li>
           </ul>
         </div>
-        <div className=" max-w-[290px] w-full text-[17.7px]">
+        <div className=" max-w-[290px] mt-[50px] sm:mt-0 w-full text-[17.7px]">
           <p className=" text-center font-bold">Partner:</p>
           <ul className=" list-disc leading-[2] font-[300] opacity-90 text-center">
             <li >Have created at least 5 routines with community engagement  </li>
